@@ -158,6 +158,7 @@ if __name__ == "__main__":
     setup_api_args(parser)
 
     args = parser.parse_args()
+    
 
     process_model_args(args)
     process_webui_args(args)
